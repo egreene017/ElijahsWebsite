@@ -4,31 +4,32 @@
 <head>
 
 <title>Racing</title>
-	<link rel="stylesheet" href="../templateCSS.css">
+	<link rel="stylesheet" href="templateCSS.css">
 
 </head>
 <body>
 
+<script src="templateJS.js"></script>
+
 <!-- FULL CONTENT -->
 <div id="div1">
 	
-	<h1 style="font-size:40pt">Elijah Greene</h1>
+	<h1 id="topHeading"></h1>
+	<script>
+		addTopHeading();
+	</script>
 	
 	<h2>Racing</h2>
 	
-	<div id="div2">
-		<img src="raceTest.jpg" alt="racing" style="height:600px; width:1200px;" />
-	</div>
-	
-	<table class="center">
-		<tr>
-			<td>Home</td>
-			<td>|</td>
-			<td>Racing</td>
-			<td>|</td>
-			<td>Lucas</td>
-		</tr>
+	<table id="menu" class="center">
+		<script>
+			addLinks();
+		</script>
 	</table>
+	
+	<div id="div2">
+		<img src="Racing/raceTest.jpg" alt="racing" style="height:600px; width:1200px;" />
+	</div>
 	
 	<div id="div3">
 	
@@ -103,18 +104,9 @@
 		</ul>
 	</div>
 	
-		<hr>
-		
-		<p>Developed using HTML and CSS from scratch<br/>
-		by Elijah Greene</p>
-		
-		<img src="SocialMedia.jpg" alt="Social Media Logos" style="height: 40px; width: 170px" usemap="#social"/>
-		<map name="social">
-			<area shape="circle" coords="22,18,18" href="https://www.facebook.com/egreene017" alt="facebook">
-			<area shape="circle" coords="61,18,18" href="https://www.instagram.com/egreene017/" alt="instagram">
-			<area shape="circle" coords="102,18,18" href="https://www.linkedin.com/in/elijah-greene-18714511a/" alt="linkedin">
-			<area shape="circle" coords="145,18,18" href="mailto:egreene017@gmail.com" alt="gmail">
-		</map>
+	<script>
+		addFooter();
+	</script>
 	
 </div>
 

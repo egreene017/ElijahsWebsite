@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Lucas through the years</title>
+
+<title>Lucas</title>
+	<link rel="stylesheet" href="templateCSS.css">
+
 </head>
-    
-<style>
-    table.center {
-        margin-left:auto; 
-        margin-right:auto;
-        text-align: center;
-      }
-    
-    p.ages{
-        text-decoration-color: cornflowerblue;
-        text-emphasis-color: blue;
-        font-family: "Arial";
-    }
-</style>
 <body>
-<h1  style="color: red; text-align: center"> Lucas </h1>
+
+<script src="templateJS.js"></script>
+
+<!-- FULL CONTENT -->
+<div id="div1">
 	
+	<h1 id="topHeading"></h1>
+	<script>
+		addTopHeading();
+	</script>
+	
+	<h2>Lucas</h2>
+	
+	
+	<div id="div2">
+		<!--Insert Image Here -->
+	</div>
+	
+	<table id="menu" class="center">
+		<script>
+			addLinks();
+		</script>
+	</table>
+	
+	<br/>
+	<br/>
+	<br/>
 	<p style="text-align: center"> This is my cousin Lucas. I have taken a picture with him ever since he was born. I am going to take a picture with him every year and show him all these pictures when he is 15 years old and I'll have 15 pictures.</p>
 	
 <table class="center">
     <!--<script src="addAges.js"></script> -->
     
     <tr>	
-		<td><img src="One.jpg" alt="One" style="height: 320px; width: 240px;"></td>
-		<td><img src="Two.jpg" alt="Two" style="height: 320px; width: 240px;"></td>
-        <td><img src="Three.jpg" alt="Three" style="height: 240px; width: 320px;"></td>
+		<td><img src="Lucas/One.jpg" alt="One" style="height: 320px; width: 240px;"></td>
+		<td><img src="Lucas/Two.jpg" alt="Two" style="height: 320px; width: 240px;"></td>
+        <td><img src="Lucas/Three.jpg" alt="Three" style="height: 240px; width: 320px;"></td>
     </tr>
 	<tr>
         <td><p class="ages">Elijah - 16<br>Lucas - 1</p></td>
@@ -37,9 +52,9 @@
 	</tr>
 	
 	<tr>    
-		<td><img src="Four.jpg" alt="Four" style="height: 320px; width: 240px;"></td>
-		<td><img src="Five.jpg" alt="Five" style="height: 320px; width: 240px;"></td>
-		<td><img src="Six.jpg" alt="Six" style="height: 320px; width: 240px;"></td>
+		<td><img src="Lucas/Four.jpg" alt="Four" style="height: 320px; width: 240px;"></td>
+		<td><img src="Lucas/Five.jpg" alt="Five" style="height: 320px; width: 240px;"></td>
+		<td><img src="Lucas/Six.jpg" alt="Six" style="height: 320px; width: 240px;"></td>
     </tr>
 	<tr>
 		<td><p class="ages">Elijah - 19<br>Lucas - 4</p></td>
@@ -48,7 +63,7 @@
     </tr>
 
 	<tr>
-		<td><img src="Seven.jpg" alt="Seven" style="height: 472px; width: 354px;"></td>
+		<td><img src="Lucas/Seven.jpg" alt="Seven" style="height: 472px; width: 354px;"></td>
 		<td><!-- 8 year old image --></td>
 		<td><!-- 9 year old image --></td>
 	</tr>
@@ -81,6 +96,12 @@
     </tr>
     
 </table>
-    
+	
+<script>
+	addFooter();
+</script>
+	
+</div>
+
 </body>
 </html>

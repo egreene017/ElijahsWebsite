@@ -39,3 +39,9 @@ h3{
 ul.nobullets{
 	list-style: none;
 }
+
+a{
+	font-family: Trebuchet MS;
+	color: saddlebrown;
+	text-decoration: none;
+}
