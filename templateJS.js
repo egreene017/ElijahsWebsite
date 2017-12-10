@@ -10,7 +10,8 @@ function addLinks(){
 	var links = [											//Add more link items here
 		{text: "Home", link: "Home.html"},
 		{text: "Racing", link: "Racing.html"},
-		{text: "Lucas", link: "Lucas.html"}
+		{text: "Lucas", link: "Lucas.html"},
+		{text: "Tic Tac Toe", link: "TicTacToe.html"}
 	];
 	
 	var tableText = "<tr>";

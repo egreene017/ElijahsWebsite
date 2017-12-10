@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Tic Tac Toe</title>
+	<link rel="stylesheet" href="templateCSS.css">
+	
+</head>
+
+<body>
+
+<script src="TicTacToe.js"></script>
+<script src="templateJS.js"></script>
+
+<!-- FULL CONTENT -->
+<div id="div1">
+	
+	<h1 id="topHeading"></h1>
+	<script>
+		addTopHeading();
+	</script>
+	
+	<h2>Tic Tac Toe</h2>
+	
+	<div id="div2">
+		<!--Insert Image Here -->
+	</div>
+	
+	<table id="menu" class="center">
+		<script>
+			addLinks();
+		</script>
+	</table>
+	
+	<br />
+	<br />
+		<p>I made this Tic Tac Toe game to get practice with JavaScript. Some things that I would eventually like to add are:</p>
+		<ul>
+			<li>Animations to get practice with jQuery</li>
+			<li>Reset Button and AI choice buttons</li>
+		</ul>
+	<hr>
+	<br />
+	<br />
+	<div class="button-group">
+		<div style="display: table; margin: 0 auto">
+			<button id="b00" onclick="play('b00', 0, 0)" class="button" style="border-bottom: none; border-right: none; border-top: none; border-left: none"></button>
+			<button id="b01" onclick="play('b01', 0, 1)" class="button" style="border-bottom: none; border-right: none;  border-top: none"></button>
+			<button id="b02" onclick="play('b02', 0, 2)" class="button" style="border-bottom: none; border-right: none;  border-top: none; border-right: none"></button>
+		</div>
+		
+		<div style="clear: both;"></div>
+		
+		<div style="display: table; margin: 0 auto">
+			<button id="b10" onclick="play('b10', 1, 0)" class="button" style="border-bottom: none; border-right: none;  border-left: none"></button>
+			<button id="b11" onclick="play('b11', 1, 1)" class="button" style="border-bottom: none; border-right: none; "></button>
+			<button id="b12" onclick="play('b12', 1, 2)" class="button" style="border-bottom: none; border-right: none; "></button>
+		</div>
+		
+		<div style="clear: both;"></div>
+		
+		<div style="display: table; margin: 0 auto">
+			<button id="b20" onclick="play('b20', 2, 0)" class="button" style="border-bottom: none; border-right: none;  border-left: none"></button>
+			<button id="b21" onclick="play('b21', 2, 1)" class="button" style="border-bottom: none; border-right: none; "></button>
+			<button id="b22" onclick="play('b22', 2, 2)" class="button" style="border-bottom: none; border-right: none; "></button>
+		</div>
+		
+		<div style="clear: both;"></div>
+	</div>
+	<div style="clear: both;"></div>
+	<br />
+	<br />
+	
+	<p id="winner" style="text-align: center; font-size: 30pt"></p>
+	
+	<script>
+		addFooter();
+	</script>
+	
+</div>
+
+</body>
+</html>
